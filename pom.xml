@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.wls</groupId>
-	<artifactId>dividend_calc</artifactId>
+	<artifactId>DividendCalcService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>dividend_calc</name>
 	<description>spring boot microservice for dividend calculations</description>

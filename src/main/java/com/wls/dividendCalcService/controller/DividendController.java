@@ -1,4 +1,4 @@
-package com.wls.dividend_calc.controller;
+package com.wls.dividendCalcService.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
