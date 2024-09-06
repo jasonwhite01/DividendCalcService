@@ -27,7 +27,7 @@ public class DividendControllerTest {
 	}
 
     @Test
-	void shouldReturnCorrectTimeToIncomeTarget() throws Exception {
+	void shouldReturnCorrectInvestmentToIncomeTargetAmount() throws Exception {
 		this.mockMvc.perform(get("/dividend/calc/income/monthly/target?symbol=CMBT&symbolprice=13.75&target=1000&amount=3.40")).andDo(print()).andExpect(status().isOk())
 				.andExpect(content().string(containsString("12132.35")));
 	}
