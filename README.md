@@ -1,2 +1,2 @@
 # DividendCalcService
-Restful api service that performs dividend calculations
+Restful web service that performs dividend calculations
