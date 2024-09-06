@@ -10,6 +10,6 @@ public class AppErrorController implements ErrorController {
 
     @RequestMapping(path = "/error", method=RequestMethod.GET)    
     public String getErrorString1(){
-        return "Bad stuff happened.";
+        return "ERROR: Bad stuff happened.";
     }
 }
