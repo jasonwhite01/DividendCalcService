@@ -29,7 +29,7 @@ public class DividendController {
     @SuppressWarnings({ "rawtypes", "unchecked" })
     @GetMapping(path = "/dividend/calc/income/monthly/target")
     @ResponseBody
-    public ResponseEntity getDividendTimeToIncomeTarget(
+    public ResponseEntity getDividendInvestmentRequiredForTarget(
         @RequestParam(name = "symbol") String symbol, 
         @RequestParam(name = "symbolprice") String symbolPrice,
         @RequestParam(name = "target") String incomeTarget,
