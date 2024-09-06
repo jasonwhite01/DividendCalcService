@@ -1,4 +1,4 @@
-package com.wls.dividendCalcService;
+package com.wls.dividendcalcservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

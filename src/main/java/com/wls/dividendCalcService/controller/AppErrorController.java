@@ -1,4 +1,4 @@
-package com.wls.dividendCalcService.controller;
+package com.wls.dividendcalcservice.controller;
 
 import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.web.bind.annotation.RequestMapping;
